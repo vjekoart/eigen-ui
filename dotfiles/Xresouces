@@ -1,0 +1,5 @@
+xterm*background: black
+xterm*foreground: white
+xterm*HiForeColor: white
+xterm*HiBackColor: #16161d
+xterm*font: *-fixed-*-*-*-18-*
