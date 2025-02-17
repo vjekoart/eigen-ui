@@ -7,9 +7,19 @@ programs.
 
 ## Todo
 
-* Check what's the purpose of .xprofile? I run the same thing in autostart.sh
-* Try to remove everything except my custom binding from rc.xml
-* ...add stuff from ~/Readme.md
+* CONT: fine-tune shortcuts
+* Before
+    * Check what's the purpose of .xprofile? I run the same thing in autostart.sh
+    * Try to remove everything except my custom binding from rc.xml
+* XTerm styling and fullscreen mode as default, incl. font
+* Openbox styling: desktop background, windows, incl. font
+* Openbox keybinding: combination to change active keymap (based on defined choices)
+* Home screen: battery, wifi, poweroff/on/logout dialog
+* Home screen: big gmrun placeholder
+* gmrun styling
+* Auto-start startx
+* Login screen
+* Screen lock
 
 ## Design system
 
