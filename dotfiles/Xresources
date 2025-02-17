@@ -2,4 +2,5 @@ xterm*background: #16161d
 xterm*foreground: #d6d6dd
 xterm*HiForeColor: #d6d6dd
 xterm*HiBackColor: #16161d
-xterm*font: *-fixed-*-*-*-18-*
+xterm*faceName: "Fire Code"
+xterm*faceSize: 16

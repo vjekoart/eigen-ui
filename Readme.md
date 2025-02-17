@@ -8,9 +8,11 @@ programs.
 ## Todo
 
 * CONT: fine-tune shortcuts
+    * Special keys: volume up|down, brightness up|down, touchpad on|on
+    * Reverse scorlling direction with touchpad, mac-like
+    * Copy and paste in/from terminal
 * Before
     * Check what's the purpose of .xprofile? I run the same thing in autostart.sh
-    * Try to remove everything except my custom binding from rc.xml
 * XTerm styling and fullscreen mode as default, incl. font
 * Openbox styling: desktop background, windows, incl. font
 * Openbox keybinding: combination to change active keymap (based on defined choices)
@@ -25,7 +27,7 @@ programs.
 
 ### Typography
 
-TBD
+* Fira Mono, in `fonts/fira`, copied to `~/.local/share/fonts/fira` folder
 
 ### Color scheme
 
@@ -53,6 +55,7 @@ TBD
 
 * Switch between workspaces: ctrl+alt+left|right
 * Run terminal: Super+e
+* Xterm: toogle fullscreen: Alt+Enter
 
 ## Development notes
 
