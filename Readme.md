@@ -11,9 +11,7 @@ programs.
     * Special keys: volume up|down, brightness up|down, touchpad on|on
     * Reverse scorlling direction with touchpad, mac-like
     * Copy and paste in/from terminal
-* Before
-    * Check what's the purpose of .xprofile? I run the same thing in autostart.sh
-* XTerm styling and fullscreen mode as default, incl. font
+* XTerm styling: remove that crazy blue color for comments in shell script, e.g. in vim
 * Openbox styling: desktop background, windows, incl. font
 * Openbox keybinding: combination to change active keymap (based on defined choices)
 * Home screen: battery, wifi, poweroff/on/logout dialog
@@ -33,7 +31,11 @@ programs.
 
 TBD
 
-## Components
+### Theme
+
+* EigenUI, in `themes/EiegenUI`, linked with `~/.local/share/themes/EigenUI` folder
+
+## Configurations and scripts
 
 * Configuration dotfiles in `dotfiles` folder
 * Script `setup.sh` creates all symbolic links in default location (~)
