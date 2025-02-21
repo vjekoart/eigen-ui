@@ -25,8 +25,7 @@ menu.items.active.text.color: #f8f8f8
 
 !! Titlebar
 window.active.title.bg: raised splitvertical
-window.active.title.bg.color: #414141
-window.active.title.bg.colorTo: #202020
+window.active.title.bg.color: #36363D
 window.inactive.title.bg: gradient splitvertical gradient flat
 window.inactive.title.bg.color: #DEE0D8
 window.inactive.title.bg.colorTo: #E0E0D8
