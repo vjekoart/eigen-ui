@@ -5,21 +5,28 @@ UI system based on the idea of eigengrau, a color we see when we close our eyes.
 Intended for usage in Xorg+Openbox environments. Contains configuration files for various
 programs.
 
-UX note: some things are inspired by MacOS, e.g. inverted scrolling with touchpad
+## Roadmap
 
-## Todo
+### First phase: extra minimal
 
-* CONT: fine-tune shortcuts
-    * Reverse scorlling direction with touchpad, mac-like
-    * Copy and paste in/from terminal
-* XTerm styling: remove that crazy blue color for comments in shell script, e.g. in vim
-* Tone-down green color in tmux
-* Openbox styling: desktop background, windows, incl. font
+* Define color scheme in the form of an HTML file
+* Openbox window theme
+* Terminal color palette
+* Copy/paste in/to terminal
+* Scrolling in terminal, e.g. when in ctrl+b [ mode in tmux
+* gmrun on startup, check styling options
+* On startup, in `openbox/autostart.sh`, don't have an explicit resolution but rather set preferred on
+  for the active screen, i.e. 1920x1200 on laptop and 1920x1080 when connected to a TV
+* Maybe, split touchpad scrolling direction
+* Maybe, a skin for Firefox
+* Test `setup.sh` to see if it's working as expected: is it safe to use `~` in the bash script?
+
+### Future
+
+* Reverse scorlling direction with touchpad, mac-like
 * Openbox keybinding: combination to change active keymap (based on defined choices)
 * Home screen: battery, wifi, poweroff/on/logout dialog
-* Home screen: big gmrun placeholder
 * Special keys: volume up|down, brightness up|dowm, touchpad on|off
-* gmrun styling
 * Auto-start startx
 * Login screen
 * Screen lock
