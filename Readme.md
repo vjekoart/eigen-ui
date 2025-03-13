@@ -10,6 +10,7 @@ programs.
 ### First phase: extra minimal
 
 * Define color scheme in the form of an HTML file
+* Set default OS serif, sans-serif and monospace font, test on web browser with default values
 * Openbox window theme
 * Terminal color palette
 * Copy/paste in/to terminal
