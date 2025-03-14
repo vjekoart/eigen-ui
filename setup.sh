@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EIGEN_UI=~/eigen-ui
+EIGEN_UI="/home/vjekoart/Projects/eigen-ui"
 
 ln -s "$EIGEN_UI/dotfiles/xinitrc" ~/.xinitrc
 ln -s "$EIGEN_UI/dotfiles/Xresources" ~/.Xresources
