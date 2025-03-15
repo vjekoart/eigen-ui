@@ -9,8 +9,6 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 ### First phase: extra minimal
 
 * Openbox window theme
-* Terminal color palette: identify and change that painful blue color
-	* Color is okay if run outside tmux?
 * gmrun on startup, check styling options
 * On startup, in `openbox/autostart.sh`
 	* Don't have an explicit resolution but rather set preferred on for the active screen, i.e. 1920x1200 on laptop and 1920x1080 for TV
@@ -28,7 +26,7 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 * Login screen
 * Screen lock
 * Complete terminal color scheme
-* Syntax high-lighting color scheme
+* Syntax highlighting color scheme
 * Skins for common programs: icecat, chromium
 * Workspaces like on Mac:
 	* Defaults to 1 workspace
