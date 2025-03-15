@@ -1,6 +1,6 @@
 # Eigen UI
 
-Desktop UI and (opinionated) UX system based on the idea of eigengrau, a color we see when we close our eyes.
+Desktop UI and (opinionated) UX system for Linux. The goal is to create efficient, colorful experience based on the eigengrau color.
 
 Currently developed on Debian Trixie using Xorg+Openbox.
 
@@ -9,21 +9,20 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 ### First phase: extra minimal
 
 * Openbox window theme: see TODO marks in openbox-3/themerc
-* Styling of gmrun
+* Replace `gmrun` with `ulauncher`, see ulauncher.io and `ualuncher-eigen-dark` theme
 * [END] Add a screenshot to Readme.md, and add an entry to retrovizor.xyz about this project
 
 ### Future
 
 * Define a proper color scheme in the form of an HTML file
+* Vim colorscheme, that's also applied to rest of the terminal
+* IceCat and Chromium theme
 * Openbox keybinding: combination to change active keymap (based on defined choices)
+* ---
 * Home screen: battery, wifi, poweroff/on/logout dialog
 * Special keys: volume up|down, brightness up|dowm, touchpad on|off
-* Auto-start startx
 * Login screen
 * Screen lock
-* Complete terminal color scheme
-* Syntax highlighting color scheme
-* Skins for common programs: icecat, chromium
 * Workspaces like on Mac:
 	* Defaults to 1 workspace
 	* Each window in fullscreen mode becomes a standalone workspace

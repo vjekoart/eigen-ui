@@ -2,6 +2,7 @@
 
 EIGEN_UI="/home/vjekoart/Projects/eigen-ui"
 
+ln -s "$EIGEN_UI/dotfiles/bash_profile" ~/.bash_profile
 ln -s "$EIGEN_UI/dotfiles/xinitrc" ~/.xinitrc
 ln -s "$EIGEN_UI/dotfiles/Xresources" ~/.Xresources
 

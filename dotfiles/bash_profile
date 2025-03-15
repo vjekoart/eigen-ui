@@ -1,0 +1,10 @@
+# Source .bashrc
+if [ -r "/home/vjekoart/.bashrc" ]; then
+	source /home/vjekoart/.bashrc
+fi
+
+# Start X session
+if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
+	exec startx /home/vjekoart/.xinitrc
+fi
+
