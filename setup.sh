@@ -25,3 +25,7 @@ fc-cache
 # Themes
 mkir -p ~/.local/share/themes/EigenUI/openbox-3/
 ln -s "$EIGEN_UI/themes/EigenUI/openbox-3/themerc" ~/.local/share/themes/EigenUI/openbox-3/themerc
+
+# Programs
+ln -s "$EIGEN_UI/dotfiles/tmux.conf" ~/.tmux.conf
+

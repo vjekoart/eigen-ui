@@ -1,30 +1,26 @@
 # Eigen UI
 
-UI system based on the idea of eigengrau, a color we see when we close our eyes.
+Desktop UI and (opinionated) UX system based on the idea of eigengrau, a color we see when we close our eyes.
 
-Intended for usage in Xorg+Openbox environments. Contains configuration files for various
-programs.
+Currently developed on Debian Trixie using Xorg+Openbox.
 
 ## Roadmap
 
 ### First phase: extra minimal
 
-* Define color scheme in the form of an HTML file
 * Openbox window theme
 * Terminal color palette: identify and change that painful blue color
 	* Color is okay if run outside tmux?
-* Copy from terminal
-* Scrolling in terminal, e.g. when in ctrl+b [ mode in tmux
 * gmrun on startup, check styling options
-* On startup, in `openbox/autostart.sh`, don't have an explicit resolution but rather set preferred on
-  for the active screen, i.e. 1920x1200 on laptop and 1920x1080 when connected to a TV
-* Maybe, reverse touchpad scrolling direction
-* Maybe, a skin for Firefox
+* On startup, in `openbox/autostart.sh`
+	* Don't have an explicit resolution but rather set preferred on for the active screen, i.e. 1920x1200 on laptop and 1920x1080 for TV
+	* Don't have an explicit brightness for laptop screen, looks to explicit?
 * Test `setup.sh` to see if it's working as expected: is it safe to use `~` in the bash script?
 * [END] Add a screenshot to Readme.md, and add an entry to retrovizor.xyz about this project
 
 ### Future
 
+* Define a proper color scheme in the form of an HTML file
 * Openbox keybinding: combination to change active keymap (based on defined choices)
 * Home screen: battery, wifi, poweroff/on/logout dialog
 * Special keys: volume up|down, brightness up|dowm, touchpad on|off
@@ -33,6 +29,7 @@ programs.
 * Screen lock
 * Complete terminal color scheme
 * Syntax high-lighting color scheme
+* Skins for common programs: icecat, chromium
 * Workspaces like on Mac:
 	* Defaults to 1 workspace
 	* Each window in fullscreen mode becomes a standalone workspace
@@ -50,7 +47,7 @@ programs.
 
 * Base: #16161D
 
-### Theme
+### Window theme
 
 * EigenUI, in `themes/EiegenUI`, linked with `~/.local/share/themes/EigenUI` folder
 
@@ -78,7 +75,8 @@ programs.
 * Switch between workspaces: ctrl+alt+left|right
 * Run terminal: Super+e
 * Xterm: toogle fullscreen: Alt+Enter
-* Paste into terminal: select a text, click middle-mouse inside terminal
+* Paste into terminal: select a text, click middle-mouse inside a terminal
+* Copy from terminal: select a text, click middle-mouse outside a terminal
 
 ## Development notes
 
