@@ -1,43 +1,42 @@
 !! EigenUI <vjekoart@pm.me>
 
-!! Menu background
+!! Menu background [TODO]
 menu.items.bg: flat vertical
 menu.items.bg.color: #303030
 menu.items.bg.colorTo: #080808
 
-!! Menu text
+!! Menu text [TODO]
 menu.items.text.color: #b8b8b8
 menu.items.justify: left
 menu.items.disabled.text.color: #606060
 
-!! Menu headers
+!! Menu headers [TODO]
 menu.title.bg: raised splitvertical
 menu.title.bg.color: #303030
 menu.title.bg.colorTo: #181818
 menu.title.text.color: white
 menu.title.text.justify: center
 
-!! Selected menu item
+!! Selected menu item [TODO]
 menu.items.active.bg: raised splitvertical
 menu.items.active.bg.color: #6d95de
 menu.items.active.bg.colorTo: #2b829d
 menu.items.active.text.color: #f8f8f8
 
 !! Titlebar
-window.active.title.bg: raised splitvertical
-window.active.title.bg.color: #36363D
-window.inactive.title.bg: gradient splitvertical gradient flat
-window.inactive.title.bg.color: #DEE0D8
-window.inactive.title.bg.colorTo: #E0E0D8
+window.active.title.bg: flat
+window.active.title.bg.color: #16161D
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #21212B
 
 !! Titlebar text
-window.label.text.justify: left
+window.label.text.justify: center
 window.active.label.bg: parentrelative
-window.active.label.text.color: #f8f8f8
+window.active.label.text.color: #EEEEF2
 window.inactive.label.bg: parentrelative
-window.inactive.label.text.color: #747474
+window.inactive.label.text.color: #D1D1DC
 
-!! Window buttons
+!! Window buttons [TODO]
 window.*.button.*.bg: parentrelative
 window.active.button.*.hover.bg: flat splitvertical gradient border
 window.inactive.button.*.hover.bg: parentrelative
@@ -62,22 +61,21 @@ window.inactive.button.*.image.color: #747474
 window.inactive.button.disabled.image.color: #c0c0c0
 
 !! Borders
-window.active.border.color: #56565d
-window.inactive.border.color: #26262d
-window.inactive.title.separator.color: #eeeee6
+window.active.border.color: #16161D
+window.inactive.border.color: #21212B
 border.width: 2
-padding.width: 4
+padding.width: 6
 window.handle.width: 0
-window.active.client.color:  #181818
-window.inactive.client.color:  #CACAB6
+window.active.client.color: #21212B
+window.inactive.client.color: #2E2E2D
 window.client.padding.width: 1
 window.client.padding.height: 1
 menu.overlap: 0
 
-!! Font shadows
+!! Font shadows [TODO]
 menu.items.font:shadow=y:shadowtint=30
 
-!! On-screen displays
+!! On-screen displays [TODO]
 osd.bg: gradient vertical flat
 osd.bg.color: #303030
 osd.bg.colorTo: #080808

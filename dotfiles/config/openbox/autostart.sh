@@ -5,5 +5,9 @@ HOME_BASE="/home/vjekoart"
 
 xrandr -s 1920x1200 &
 xrandr --output eDP-1 --brightness 0.66 &
-xsetroot -bitmap "$PROJECT_BASE/images/bg.bitmap" -bg "#16161D" -fg "#1F1F26" &
+hsetroot -center "$PROJECT_BASE/images/bg.png" &
+compton &
 exec xrdb -merge "$HOME_BASE/.Xresources" &
+
+# Program startup
+xterm tmux &

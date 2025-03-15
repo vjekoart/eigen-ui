@@ -7,6 +7,7 @@ ln -s "$EIGEN_UI/dotfiles/Xresources" ~/.Xresources
 
 ln -s "$EIGEN_UI/dotfiles/config/openbox/autostart.sh" ~/.config/openbox/autostart.sh
 ln -s "$EIGEN_UI/dotfiles/config/openbox/rc.xml" ~/.config/openbox/rc.xml
+ln -s "$EIGEN_UI/dotfiles/config/compton.conf" ~/.config/compton.conf
 
 # Fonts
 mkdir -p ~/.local/share/fonts/fira

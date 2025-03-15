@@ -8,12 +8,7 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 
 ### First phase: extra minimal
 
-* Openbox window theme
-* gmrun on startup, check styling options
-* On startup, in `openbox/autostart.sh`
-	* Don't have an explicit resolution but rather set preferred on for the active screen, i.e. 1920x1200 on laptop and 1920x1080 for TV
-	* Don't have an explicit brightness for laptop screen, looks to explicit?
-* Test `setup.sh` to see if it's working as expected: is it safe to use `~` in the bash script?
+* Openbox window theme: see TODO marks in openbox-3/themerc
 * [END] Add a screenshot to Readme.md, and add an entry to retrovizor.xyz about this project
 
 ### Future
@@ -61,6 +56,8 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 * Xterm, `apt-get install xterm`
 * gmrun, `apt-get install gmrun`
 * tmux, `apt-get install tmux`
+* compton, `apt-get install compton`
+* hsetroot, `apt-get install hsetroot`
 
 ## Behaviour
 
