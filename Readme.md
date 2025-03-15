@@ -9,6 +9,7 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 ### First phase: extra minimal
 
 * Openbox window theme: see TODO marks in openbox-3/themerc
+* Styling of gmrun
 * [END] Add a screenshot to Readme.md, and add an entry to retrovizor.xyz about this project
 
 ### Future
