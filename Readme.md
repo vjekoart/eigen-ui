@@ -12,25 +12,32 @@ programs.
 * Define color scheme in the form of an HTML file
 * Set default OS serif, sans-serif and monospace font, test on web browser with default values
 * Openbox window theme
-* Terminal color palette
-* Copy/paste in/to terminal
+* Terminal color palette: identify and change that painful blue color
+	* Color is okay if run outside tmux?
+* Copy from terminal
 * Scrolling in terminal, e.g. when in ctrl+b [ mode in tmux
 * gmrun on startup, check styling options
 * On startup, in `openbox/autostart.sh`, don't have an explicit resolution but rather set preferred on
   for the active screen, i.e. 1920x1200 on laptop and 1920x1080 when connected to a TV
-* Maybe, split touchpad scrolling direction
+* Maybe, reverse touchpad scrolling direction
 * Maybe, a skin for Firefox
 * Test `setup.sh` to see if it's working as expected: is it safe to use `~` in the bash script?
+* [END] Add a screenshot to Readme.md, and add an entry to retrovizor.xyz about this project
 
 ### Future
 
-* Reverse scorlling direction with touchpad, mac-like
 * Openbox keybinding: combination to change active keymap (based on defined choices)
 * Home screen: battery, wifi, poweroff/on/logout dialog
 * Special keys: volume up|down, brightness up|dowm, touchpad on|off
 * Auto-start startx
 * Login screen
 * Screen lock
+* Complete terminal color scheme
+* Syntax high-lighting color scheme
+* Workspaces like on Mac:
+	* Defaults to 1 workspace
+	* Each window in fullscreen mode becomes a standalone workspace
+	* When exiting fullscreen a window is moved to the first workspace
 
 ## Design system
 
@@ -40,7 +47,7 @@ programs.
 
 ### Color scheme
 
-TBD
+* Base: #16161D
 
 ### Theme
 
@@ -70,6 +77,7 @@ TBD
 * Switch between workspaces: ctrl+alt+left|right
 * Run terminal: Super+e
 * Xterm: toogle fullscreen: Alt+Enter
+* Paste into terminal: select a text, click middle-mouse inside terminal
 
 ## Development notes
 
