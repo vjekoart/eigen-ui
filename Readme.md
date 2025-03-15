@@ -10,7 +10,6 @@ programs.
 ### First phase: extra minimal
 
 * Define color scheme in the form of an HTML file
-* Set default OS serif, sans-serif and monospace font, test on web browser with default values
 * Openbox window theme
 * Terminal color palette: identify and change that painful blue color
 	* Color is okay if run outside tmux?
@@ -43,7 +42,9 @@ programs.
 
 ### Typography
 
-* Fira Mono, in `fonts/fira`, copied to `~/.local/share/fonts/fira` folder
+* Fira Code as monospace, github.com/tonsky/FiraCode
+* Barlow as sans-serif, github.com/jpt/barlow
+* Gelasio as serif, github.com/SorkinType/Gelasio
 
 ### Color scheme
 
