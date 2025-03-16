@@ -6,23 +6,21 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 
 **State:** possible to reproduce following scripts and documentation, but some local paths are hardcoded.
 
+![Screenshot: Eigen UI start](images/2025-03-16-eigen-ui-start-1920x1200.png)
+![Screenshot: Eigen UI windows](images/2025-03-16-eigen-ui-windows-1920x1200.png)
+
 ## Roadmap
 
-### First phase: extra minimal
-
-* [END] Add a screenshot to Readme.md, and add an entry to retrovizor.xyz about this project
-
-### Future
-
 * Define a proper color scheme in the form of an HTML file
-* Vim colorscheme, that's also applied to rest of the terminal
-* IceCat and Chromium theme
-* Openbox keybinding: combination to change active keymap (based on defined choices)
+* Add Vim colorscheme that's also used as a terminal color scheme
+* Add IceCat and Chromium themes
+* Keybinding: change active keymap, `setxkbmap us|hr`
 * ---
 * Home screen: battery, wifi, poweroff/on/logout dialog
 * Special keys: volume up|down, brightness up|dowm, touchpad on|off
 * Login screen
 * Screen lock
+* Custom icon pack, including cursor
 * Workspaces like on Mac:
 	* Defaults to 1 workspace
 	* Each window in fullscreen mode becomes a standalone workspace
