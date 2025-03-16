@@ -31,3 +31,7 @@ ln -s "$EIGEN_UI/themes/EigenUI/openbox-3/themerc" ~/.local/share/themes/EigenUI
 # Programs
 ln -s "$EIGEN_UI/dotfiles/tmux.conf" ~/.tmux.conf
 
+mkdr -p ~/.config/rofi
+ln -s "$EIGEN_UI/dotfiles/config/rofi/config.rasi" ~/.config/rofi/config.rasi
+ln -s "$EIGEN_UI/dotfiles/config/rofi/eigen.rasi" ~/.config/rofi/eigen.rasi
+

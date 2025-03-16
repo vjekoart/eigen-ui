@@ -10,7 +10,6 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 
 ### First phase: extra minimal
 
-* Replace `gmrun` with `ulauncher`, see ulauncher.io and `ualuncher-eigen-dark` theme
 * [END] Add a screenshot to Readme.md, and add an entry to retrovizor.xyz about this project
 
 ### Future
@@ -55,7 +54,7 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 * Xorg, `apt-get install xorg`
 * Openbox, `apt-get install openbox`
 * Xterm, `apt-get install xterm`
-* gmrun, `apt-get install gmrun`
+* rofi, `apt-get install rofi`
 * tmux, `apt-get install tmux`
 * compton, `apt-get install compton`
 * hsetroot, `apt-get install hsetroot`
