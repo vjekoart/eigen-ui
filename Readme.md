@@ -28,23 +28,17 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 
 ## Design system
 
-### Typography
-
-* Fira Code as monospace, github.com/tonsky/FiraCode
-* Barlow as sans-serif, github.com/jpt/barlow
-* Gelasio as serif, github.com/SorkinType/Gelasio
-
-### Color scheme
-
-* Base: #16161D
-
-### Window theme
-
+* Typography
+	* Fira Code as monospace, github.com/tonsky/FiraCode
+	* Barlow as sans-serif, github.com/jpt/barlow
+	* Gelasio as serif, github.com/SorkinType/Gelasio
+* Base color: `#16161D`
 * EigenUI, in `themes/EiegenUI`, linked with `~/.local/share/themes/EigenUI` folder
+* Eigen theme for rofi in `dotfiles/config/rofi/eigen.rasi`
 
 ## Configurations and scripts
 
-* Configuration dotfiles in `dotfiles` folder
+* Configuration files in `dotfiles` folder
 * Script `setup.sh` creates all symbolic links in default location (~)
 
 ## Packages / Dependencies
@@ -57,15 +51,9 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 * compton, `apt-get install compton`
 * hsetroot, `apt-get install hsetroot`
 
-## Behaviour
-
-* For now, start the UI with `startx`
-* Use xrandr to set resolution, e.g. `xrandr -s 1920x1200`
-* Startup behaviour is defined in `config/openbox/autostart.sh`
-
 ## Keybindings
 
-* Switch between workspaces: ctrl+alt+left|right
+* Switch between workspaces: Ctrl+Alt+<arrow-left|arrow-right>
 * Run terminal: Super+e
 * Xterm: toogle fullscreen: Alt+Enter
 * Paste into terminal: select a text, click middle-mouse inside a terminal
