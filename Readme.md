@@ -6,8 +6,8 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 
 **State:** possible to reproduce following scripts and documentation, but some local paths are hardcoded.
 
-![Screenshot: Eigen UI start](images/2025-03-16-eigen-ui-start-1920x1200.png)
-![Screenshot: Eigen UI windows](images/2025-03-16-eigen-ui-windows-1920x1200.png)
+![Screenshot: Eigen UI start](screenshots/2025-03-16-eigen-ui-start-1920x1200.png)
+![Screenshot: Eigen UI windows](screenshots/2025-03-16-eigen-ui-windows-1920x1200.png)
 
 ## Roadmap
 
