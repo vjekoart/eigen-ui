@@ -4,12 +4,12 @@ Desktop UI and (opinionated) UX system for Linux. The goal is to create efficien
 
 Currently developed on Debian Trixie using Xorg+Openbox.
 
+**State:** possible to reproduce following scripts and documentation, but some local paths are hardcoded.
+
 ## Roadmap
 
 ### First phase: extra minimal
 
-* Openbox window theme: see TODO marks in openbox-3/themerc
-* Mouse pointer is too large
 * Replace `gmrun` with `ulauncher`, see ulauncher.io and `ualuncher-eigen-dark` theme
 * [END] Add a screenshot to Readme.md, and add an entry to retrovizor.xyz about this project
 

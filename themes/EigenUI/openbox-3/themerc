@@ -1,27 +1,34 @@
 !! EigenUI <vjekoart@pm.me>
 
-!! Menu background [TODO]
-menu.items.bg: flat vertical
-menu.items.bg.color: #303030
-menu.items.bg.colorTo: #080808
+!! Menu
+menu.overlap.x: -4
+menu.overlay.y: 0
 
-!! Menu text [TODO]
-menu.items.text.color: #b8b8b8
+!! Menu background
+menu.items.bg: flat
+menu.items.bg.color: #16161D
+
+!! Menu text
+menu.items.text.color: #D1D1DC
 menu.items.justify: left
-menu.items.disabled.text.color: #606060
+menu.items.disabled.text.color: #585874
 
-!! Menu headers [TODO]
-menu.title.bg: raised splitvertical
-menu.title.bg.color: #303030
-menu.title.bg.colorTo: #181818
-menu.title.text.color: white
+!! Menu headers
+menu.title.bg: flat
+menu.title.bg.color: #21212B
+menu.title.text.color: #EEEEF2
 menu.title.text.justify: center
 
-!! Selected menu item [TODO]
-menu.items.active.bg: raised splitvertical
-menu.items.active.bg.color: #6d95de
-menu.items.active.bg.colorTo: #2b829d
-menu.items.active.text.color: #f8f8f8
+!! Menu separators
+menu.separator.color: #2E2E3D
+menu.separator.width: 3
+menu.separator.padding.width: 48
+menu.separator.padding.height: 8
+
+!! Selected menu item
+menu.items.active.bg: flat
+menu.items.active.bg.color: #2E2E3D
+menu.items.active.text.color: #EEEEF2
 
 !! Titlebar
 window.active.title.bg: flat
@@ -36,29 +43,23 @@ window.active.label.text.color: #EEEEF2
 window.inactive.label.bg: parentrelative
 window.inactive.label.text.color: #D1D1DC
 
-!! Window buttons [TODO]
+!! Window buttons
 window.*.button.*.bg: parentrelative
-window.active.button.*.hover.bg: flat splitvertical gradient border
+window.active.button.*.hover.bg: flat
 window.inactive.button.*.hover.bg: parentrelative
-window.*.button.*.pressed.bg: flat splitvertical gradient border
+window.*.button.*.pressed.bg: flat
 
-window.active.button.*.hover.bg.color: #398dc6
-window.active.button.*.hover.bg.colorTo: #236d83
-window.active.button.*.hover.bg.border.color: #236d83
+window.active.button.*.hover.bg.color: #E6863D
 
-window.active.button.*.pressed.bg.color: #235679
-window.active.button.*.pressed.bg.colorTo: #154350
-window.active.button.*.pressed.image.color: #898989
-window.active.button.*.pressed.bg.border.color: #154350
-window.inactive.button.*.pressed.bg.color: #4ab5ff
-window.inactive.button.*.pressed.bg.colorTo: #38b3d6
-window.inactive.button.*.pressed.image.color: #b7fdef
-window.inactive.button.*.pressed.bg.border.color: #38b3d6
+window.active.button.*.pressed.bg.color: #EB9D61
+window.active.button.*.pressed.image.color: #EEEEF2
+window.inactive.button.*.pressed.bg.color: #BE6018
+window.inactive.button.*.pressed.image.color: #D1D1DC
 
-window.active.button.*.image.color: #e0e0e0
-window.active.button.disabled.image.color: #707070
-window.inactive.button.*.image.color: #747474
-window.inactive.button.disabled.image.color: #c0c0c0
+window.active.button.*.image.color: #D1D1DC
+window.active.button.disabled.image.color: #585874
+window.inactive.button.*.image.color: #585874
+window.inactive.button.disabled.image.color: #373748
 
 !! Borders
 window.active.border.color: #16161D
@@ -70,12 +71,15 @@ window.active.client.color: #21212B
 window.inactive.client.color: #2E2E2D
 window.client.padding.width: 1
 window.client.padding.height: 1
-menu.overlap: 0
 
-!! Font shadows [TODO]
-menu.items.font:shadow=y:shadowtint=30
+!! On-screen displays
+osd.bg: flat
+osd.bg.color: #16161D
+osd.hilight.bg: flat
+osd.hilight.bg.color: #585874
+osd.unhilight.bg: flat
+osd.unhilight.bg.color: #373748
+osd.label.bg: flat
+osd.label.bg.color: #16161D
+osd.label.text.color: #EEEEF2
 
-!! On-screen displays [TODO]
-osd.bg: gradient vertical flat
-osd.bg.color: #303030
-osd.bg.colorTo: #080808

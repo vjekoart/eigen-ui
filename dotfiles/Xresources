@@ -4,3 +4,5 @@ xterm*HiForeColor: #d6d6dd
 xterm*HiBackColor: #16161d
 xterm*faceName: "Fira Code"
 xterm*faceSize: 12
+
+Xcursor.size: 16
