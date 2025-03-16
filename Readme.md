@@ -9,6 +9,7 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 ### First phase: extra minimal
 
 * Openbox window theme: see TODO marks in openbox-3/themerc
+* Mouse pointer is too large
 * Replace `gmrun` with `ulauncher`, see ulauncher.io and `ualuncher-eigen-dark` theme
 * [END] Add a screenshot to Readme.md, and add an entry to retrovizor.xyz about this project
 
