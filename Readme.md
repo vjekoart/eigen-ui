@@ -12,7 +12,7 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 ## Roadmap
 
 * Define a proper color scheme in the form of an HTML file
-* Add Vim colorscheme that's also used as a terminal color scheme
+* Extend `themes/eigenui.vim` colorscheme that should also be used as a terminal color scheme
 * Add IceCat and Chromium themes
 * Keybinding: change active keymap, `setxkbmap us|hr`
 * ---
@@ -35,10 +35,11 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 * Base color: `#16161D`
 * EigenUI, in `themes/EiegenUI`, linked with `~/.local/share/themes/EigenUI` folder
 * Eigen theme for rofi in `dotfiles/config/rofi/eigen.rasi`
+* eigenui colorscheme for vim in `themes/eigenui.vim`, enable by adding `colorscheme eigenui` to `.vimrc`
 
 ## Configurations and scripts
 
-* Configuration files in `dotfiles` folder
+* See configuration files in `dotfiles` folder
 * Script `setup.sh` creates all symbolic links in default location (~)
 
 ## Packages / Dependencies

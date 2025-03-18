@@ -25,8 +25,11 @@ ln -s "$EIGEN_UI/dotfiles/config/fontconfig/fonts.conf" ~/.config/fontconfig/fon
 fc-cache
 
 # Themes
-mkir -p ~/.local/share/themes/EigenUI/openbox-3/
+mkir -p ~/.local/share/themes/EigenUI/openbox-3
 ln -s "$EIGEN_UI/themes/EigenUI/openbox-3/themerc" ~/.local/share/themes/EigenUI/openbox-3/themerc
+
+mkdir -p ~/.vim/colors
+ln -s "$EIGEN_UI/themes/eigenui.vim" ~/.vim/colors/eigenui.vim
 
 # Programs
 ln -s "$EIGEN_UI/dotfiles/tmux.conf" ~/.tmux.conf
