@@ -114,12 +114,12 @@ hi SpellRare guifg=#e686ed guibg=NONE guisp=#e686ed gui=undercurl cterm=underlin
 hi Directory guifg=#16e6ed guibg=NONE gui=NONE cterm=NONE
 hi Title guifg=#e686ed guibg=NONE gui=NONE cterm=NONE
 hi Comment guifg=#51517b guibg=NONE gui=NONE cterm=NONE
-hi Constant guifg=#e6d53d guibg=NONE gui=NONE cterm=NONE
-hi Identifier guifg=#16e6ed guibg=NONE gui=NONE cterm=NONE
+hi Constant guifg=#d4bc1b guibg=NONE gui=NONE cterm=NONE
+hi Identifier guifg=#b6b6e7 guibg=NONE gui=NONE cterm=NONE
 hi Ignore guifg=#36363d guibg=NONE gui=NONE cterm=NONE
 hi PreProc guifg=#e686ed guibg=NONE gui=NONE cterm=NONE
 hi Special guifg=#659beb guibg=NONE gui=NONE cterm=NONE
-hi Statement guifg=#6464be guibg=NONE gui=bold cterm=bold
+hi Statement guifg=#7373c4 guibg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#c6161d guibg=#1616ed gui=reverse cterm=reverse
 hi Type guifg=#16c61d guibg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#86a6fd guibg=NONE gui=underline cterm=underline
@@ -230,7 +230,7 @@ if s:t_Co >= 256
   hi Ignore ctermfg=236 ctermbg=NONE cterm=NONE
   hi PreProc ctermfg=201 ctermbg=NONE cterm=NONE
   hi Special ctermfg=214 ctermbg=NONE cterm=NONE
-  hi Statement ctermfg=227 ctermbg=NONE cterm=bold
+  hi Statement ctermfg=227 ctermbg=NONE cterm=NONE
   hi Todo ctermfg=226 ctermbg=21 cterm=reverse
   hi Type ctermfg=46 ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=111 ctermbg=NONE cterm=underline
@@ -344,7 +344,7 @@ if s:t_Co >= 16
   hi Ignore ctermfg=gray ctermbg=NONE cterm=NONE
   hi PreProc ctermfg=darkmagenta ctermbg=NONE cterm=NONE
   hi Special ctermfg=darkred ctermbg=NONE cterm=NONE
-  hi Statement ctermfg=yellow ctermbg=NONE cterm=bold
+  hi Statement ctermfg=yellow ctermbg=NONE cterm=NONE
   hi Todo ctermfg=darkyellow ctermbg=blue cterm=reverse
   hi Type ctermfg=green ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=lightblue ctermbg=NONE cterm=underline
@@ -408,7 +408,7 @@ if s:t_Co >= 8
   hi Ignore ctermfg=gray ctermbg=NONE cterm=NONE
   hi PreProc ctermfg=darkmagenta ctermbg=NONE cterm=NONE
   hi Special ctermfg=darkred ctermbg=NONE cterm=NONE
-  hi Statement ctermfg=darkyellow ctermbg=NONE cterm=bold
+  hi Statement ctermfg=darkyellow ctermbg=NONE cterm=NONE
   hi Todo ctermfg=darkyellow ctermbg=blue cterm=reverse
   hi Type ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
