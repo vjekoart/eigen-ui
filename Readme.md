@@ -16,12 +16,16 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 * Add IceCat and Chromium themes
 * Keybinding: change active keymap, `setxkbmap us|hr`
 * ---
-* Home screen: battery, wifi, poweroff/on/logout dialog
-* Special keys: volume up|down, brightness up|dowm, touchpad on|off
-* Login screen
-* Screen lock
-* Custom icon pack, including cursor
-* Workspaces like on Mac:
+* Special keys: volume up|down, mute, brightness up|dowm, touchpad on|off, play/pause, next/prev
+* Core feeling:
+    * Home screen: time, battery, network/wifi, shutdown/restart/logout
+    * Login screen
+    * Screen lock
+* Windows: custom icon pack with retro machine feeling
+* Cursor:
+    * Custom icon pack
+    * Cursor disappears after a couple of seconds of inactivity
+* Workspaces:
 	* Defaults to 1 workspace
 	* Each window in fullscreen mode becomes a standalone workspace
 	* When exiting fullscreen a window is moved to the first workspace
