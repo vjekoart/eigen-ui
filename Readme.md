@@ -61,8 +61,10 @@ Currently developed on Debian Trixie using Xorg+Openbox.
 * Switch between workspaces: Ctrl+Alt+<arrow-left|arrow-right>
 * Run terminal: Super+e
 * Xterm: toogle fullscreen: Alt+Enter
-* Paste into terminal: select a text, click middle-mouse inside a terminal
-* Copy from terminal: select a text, click middle-mouse outside a terminal
+* Copy-paste (outside means non-terminal)
+    * Copy from outside into terminal: select a text, Ctrl+c, click middle-mouse OR shift+insert in terminal to paste
+    * Copy from terminal into outside: select a text, Ctrl+v outside terminal
+    * Copy from terminal into termina: select a text, click middle-mouse OR shift+insert in terminal to paste
 
 ## Development notes
 
