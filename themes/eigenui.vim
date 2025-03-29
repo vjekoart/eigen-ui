@@ -69,11 +69,11 @@ hi! link MessageWindow Pmenu
 hi! link PopupNotification Todo
 hi Normal guifg=#e6e6ed guibg=#16161d gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#86161d gui=NONE cterm=NONE
-hi CursorLine guifg=NONE guibg=#66666d gui=NONE cterm=NONE
-hi CursorLineNr guifg=#c6161d guibg=#66666d gui=NONE cterm=NONE
+hi CursorLine guifg=NONE guibg=#26262d gui=NONE cterm=NONE
+hi CursorLineNr guifg=#86868d guibg=#26262d gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#51517b guibg=#16161d gui=NONE cterm=NONE
 hi StatusLine guifg=#1f1f29 guibg=#d6d6dd gui=NONE cterm=NONE
-hi StatusLineNC guifg=#1f1f29 guibg=#c6c6cd gui=NONE cterm=NONE
+hi StatusLineNC guifg=#1f1f29 guibg=#96969d gui=NONE cterm=NONE
 hi TabLineSel guifg=#36363d guibg=#e6e6ed gui=bold cterm=bold
 hi TabLine guifg=#16161d guibg=#d6d6dd gui=NONE cterm=NONE
 hi PmenuMatch guifg=#e686ed guibg=#46464d gui=NONE cterm=NONE
@@ -183,7 +183,7 @@ if s:t_Co >= 256
   hi CursorLine ctermfg=NONE ctermbg=241 cterm=NONE
   hi CursorLineNr ctermfg=226 ctermbg=241 cterm=NONE
   hi EndOfBuffer ctermfg=153 ctermbg=239 cterm=NONE
-  hi StatusLine ctermfg=236 ctermbg=231 cterm=bold
+  hi StatusLine ctermfg=236 ctermbg=231 cterm=NONE
   hi StatusLineNC ctermfg=236 ctermbg=252 cterm=NONE
   hi TabLineSel ctermfg=236 ctermbg=231 cterm=bold
   hi TabLine ctermfg=236 ctermbg=252 cterm=NONE
@@ -295,7 +295,7 @@ if s:t_Co >= 16
   hi Normal ctermfg=white ctermbg=black cterm=NONE
   hi ColorColumn ctermfg=white ctermbg=darkred cterm=NONE
   hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
-  hi CursorLineNr ctermfg=NONE ctermbg=NONE cterm=underline
+  hi CursorLineNr ctermfg=NONE ctermbg=NONE cterm=NONE
   hi EndOfBuffer ctermfg=lightblue ctermbg=NONE cterm=NONE
   hi StatusLine ctermfg=black ctermbg=white cterm=NONE
   hi StatusLineNC ctermfg=black ctermbg=gray cterm=NONE
@@ -359,10 +359,10 @@ endif
 if s:t_Co >= 8
   hi Normal ctermfg=gray ctermbg=black cterm=NONE
   hi ColorColumn ctermfg=gray ctermbg=darkred cterm=NONE
-  hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
-  hi CursorLineNr ctermfg=darkyellow ctermbg=NONE cterm=bold
+  hi CursorLine ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi CursorLineNr ctermfg=darkyellow ctermbg=NONE cterm=NONE
   hi EndOfBuffer ctermfg=blue ctermbg=NONE cterm=bold
-  hi StatusLine ctermfg=gray ctermbg=black cterm=bold,reverse
+  hi StatusLine ctermfg=gray ctermbg=black cterm=reverse
   hi StatusLineNC ctermfg=gray ctermbg=black cterm=reverse
   hi TabLineSel ctermfg=gray ctermbg=black cterm=bold,reverse
   hi TabLine ctermfg=gray ctermbg=black cterm=reverse
@@ -426,8 +426,8 @@ if s:t_Co >= 0
   hi Conceal term=NONE
   hi Cursor term=reverse
   hi CursorColumn term=NONE
-  hi CursorLine term=underline
-  hi CursorLineNr term=bold
+  hi CursorLine term=NONE
+  hi CursorLineNr term=NONE
   hi DiffAdd term=reverse
   hi DiffChange term=NONE
   hi DiffDelete term=reverse
