@@ -68,9 +68,9 @@ hi! link Typedef Type
 hi! link MessageWindow Pmenu
 hi! link PopupNotification Todo
 hi Normal guifg=#e6e6ed guibg=#16161d gui=NONE cterm=NONE
-hi ColorColumn guifg=NONE guibg=#86161d gui=NONE cterm=NONE
-hi CursorLine guifg=NONE guibg=#26262d gui=NONE cterm=NONE
-hi CursorLineNr guifg=#86868d guibg=#26262d gui=NONE cterm=NONE
+hi ColorColumn guifg=NONE guibg=#1a1a2a gui=NONE cterm=NONE
+hi CursorLine guifg=NONE guibg=#1a1a2a gui=NONE cterm=NONE
+hi CursorLineNr guifg=#86868d guibg=#1a1a22 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#51517b guibg=#16161d gui=NONE cterm=NONE
 hi StatusLine guifg=#1f1f29 guibg=#d6d6dd gui=NONE cterm=NONE
 hi StatusLineNC guifg=#1f1f29 guibg=#96969d gui=NONE cterm=NONE
