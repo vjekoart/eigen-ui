@@ -1,10 +1,27 @@
 # Eigen UI
 
-Desktop UI and (opinionated) UX system for Linux. The goal is to create efficient, colorful experience based on the eigengrau color.
+A *very early* stage of an ambitious human-computer interaction project that
+provides all necessary utilities for everyday and not-so-everyday usage of a
+personal computer.
 
-Currently developed on Debian Trixie using Xorg+Openbox.
+The goal is to provide dreamy and romantic UI feeling with color schemes and
+styles for common programs, while providing straightforward command interface
+to do everyday tasks like browsing the internet, programming, and similar.
 
-**State:** possible to reproduce following scripts and documentation, but some local paths are hardcoded.
+Vision: retro-futuristic UI with accessible CLI-like interface for doing stuff.
+
+*Accessible as in usable by non-tech-savy humans.**
+
+---
+
+Components:
+
+* Visual and functional configuration for Debian (Trixie) using Xorg and
+  Openbox, including fonts, terminal setup and window color scheme.
+* Vim color scheme.
+* Various scripts to easily reproduce and setup the OS.
+    * Should be possible to reproduce following the documentation, but some
+      local paths are hardcoded.
 
 ![Screenshot: Eigen UI start](screenshots/2025-03-16-eigen-ui-start-1920x1200.png)
 ![Screenshot: Eigen UI windows](screenshots/2025-03-16-eigen-ui-windows-1920x1200.png)
