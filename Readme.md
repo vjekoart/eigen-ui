@@ -29,9 +29,13 @@ Components:
 ## Roadmap
 
 * Define a proper color scheme in the form of an HTML file
+    * Possible direction: retro future machine skeuomorphism, but implemented only with native (CSS) mechanisms?
+      The goal is to have a shiny, quality feeling.
 * Extend `themes/eigenui.vim` colorscheme that should also be used as a terminal color scheme
 * Add IceCat and Chromium themes
 * Keybinding: change active keymap, `setxkbmap us|hr`
+* Introduce a background with minimal movement to create atmosphere, maybe only
+  on the first desktop?
 * ---
 * Special keys: volume up|down, mute, brightness up|dowm, touchpad on|off, play/pause, next/prev
 * Core feeling:
@@ -46,6 +50,8 @@ Components:
 	* Defaults to 1 workspace
 	* Each window in fullscreen mode becomes a standalone workspace
 	* When exiting fullscreen a window is moved to the first workspace
+    * In multiple monitor setup, changing of workspace moves only on the active
+      screen
 
 ## Design system
 

@@ -1,0 +1,13 @@
+# General
+*.tmp
+tmp*
+temp*
+*swp
+
+# Secrets
+.env
+
+# NodeJS / Frontend
+dist/
+node_modules/
+

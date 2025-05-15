@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "description": "Holistic UI system.",
+        "keywords": "eigengrau, ui, retro, futuristic"
+    },
+    "views": {
+        "homepage": {
+            "title": "Eigen UI"
+        },
+        "about": {
+            "title": "About Eigen UI"
+        },
+        "404": {
+            "title": "Page not found"
+        }
+    }
+}

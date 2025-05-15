@@ -1,0 +1,72 @@
+/**
+ * General elements
+ */
+strong
+{
+    font-weight : var(--style-font-weight-strong);
+}
+
+/**
+ * Links
+ */
+a
+{
+    text-decoration : underline;
+ 
+    color           : var(--style-color-interactive);
+    transition      : color var(--transition-duration-short) ease-in-out;
+}
+
+a:hover,
+a:active,
+a:focus
+{
+    color : var(--style-color-interactive-in);
+}
+
+/**
+ * Headings
+ */
+h2,
+h3
+{}
+
+h2
+{}
+
+h3
+{}
+
+/**
+ * Text content
+ */
+p,
+ul,
+ol,
+blockquote
+{
+    margin : 0 0 var(--style-grid-full) 0;
+}
+
+p:last-child,
+ul:last-child,
+ol:last-child,
+blockquote:last-child
+{
+    margin-bottom : 0;
+}
+
+ul,
+ol
+{
+    padding-left : calc(2 * var(--style-grid-third));
+}
+
+/**
+ * Utility classes
+ */
+.center
+{
+    text-align : center;
+}
+

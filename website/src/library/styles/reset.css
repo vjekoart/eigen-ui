@@ -1,0 +1,42 @@
+*
+{
+    box-sizing : border-box;
+}
+
+html,
+body
+{
+    width   : 100%;
+    margin  : 0;
+    padding : 0;
+}
+
+html
+{
+    height      : 100%;
+
+    font-family : var(--style-font-family);
+    font-size   : var(--style-font-size);
+    font-weight : var(--style-font-weight);
+    line-height : var(--style-grid-full);
+
+    color       : var(--style-color-text);
+    background  : var(--style-color-background);
+}
+
+body
+{
+    min-height : 100%;
+}
+
+canvas,
+img
+{
+    display : block;
+}
+
+.hidden
+{
+    display : none;
+}
+

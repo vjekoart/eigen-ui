@@ -1,0 +1,53 @@
+h1
+{
+    text-align : center;
+}
+
+input[type="radio"]
+{
+    visibility : hidden; 
+}
+
+label
+{
+    position : relative;
+    display  : inline-block;
+    height   : var(--style-grid-full);
+    margin   : 0 0 var(--style-grid-half) 0;
+    padding  : 0 0 0 var(--style-grid-third);
+}
+
+/**
+ * Colors of interest:
+ * - light interactive
+ * - dark interactive
+ * - slightly darker interactive
+ */
+label::before
+{
+    --color-light  : #f6d00e;
+    --color-dark   : #c0a107;
+    --color-darker : #a28806;
+    --color-darkerer : #806b05;
+    --color-darkererer : #715f04;
+
+    content : " ";
+
+    position : absolute;
+    top      : 0;
+    left     : calc(-1 * var(--style-grid-full));
+
+    display : block;
+    width   : calc(var(--style-grid-full) - 4px);
+    height  : calc(var(--style-grid-full) - 4px);
+
+    background    : radial-gradient(var(--color-darkererer) 33%, var(--color-darkerer));
+    border        : 2px solid var(--color-darker);
+    border-radius : 100%;
+}
+
+input[type="radio"]:checked ~ label::before
+{
+    background : radial-gradient(var(--color-light) 33%, var(--color-dark));
+}
+

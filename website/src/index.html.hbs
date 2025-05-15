@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="{{ data.meta.keywords }}">
+        <meta name="description" content="{{ data.meta.description }}">
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="theme-color" content="#29297c">
+
+        <title>{{ title }} | eigen.retrovizor.xyz</title>
+
+        <meta property="og:title" content="{{ data.views.homepage.title }}">
+        <meta property="og:site_name" content="Eigen UI">
+        <meta property="og:description" content="{{ data.meta.description }}">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://eigen.retrovizor.xyz/">
+        <meta property="og:image" content="https://eigen.retrovizor.xyz/assets/favicons/apple-touch-icon.png">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+        <link rel="canonical" href="https://eigen.retrovizor.xyz/">
+        <link rel="manifest" href="/assets/manifest.json">
+
+        <style>html { background: #16161d }</style>
+
+        <link rel="stylesheet" type="text/css" href="{{ getFilePath "index.css" }}">
+        {{#if templateStyle}}
+        <link rel="stylesheet" type="text/css" href="{{ getFilePath templateStyle }}">
+        {{/if}}
+        {{#if viewStyle}}
+        <link rel="stylesheet" type="text/css" href="{{ getFilePath viewStyle }}">
+        {{/if}}
+        <script type="importmap">
+            {
+                "imports":
+                {
+                {{#ifBuildType "native"}}
+                    {{#each configuration.nativeDependencies}}
+                    "{{ @key }}": "/{{ this }}",
+                    {{/each}}
+                {{/ifBuildType}}
+                {{#each fileMappings.library.scripts}}
+                    "{{ @key }}": "{{ this }}"{{#unless @last}},{{/unless}}
+                {{/each}}
+                }
+            }
+        </script>
+    </head>
+    <body>
+    {{> @partial-block }}
+        <script type="module" src="{{ getFilePath "index.js" }}"></script>
+        {{#if templateScript}}
+        <script type="module" src="{{ getFilePath templateScript }}"></script>
+        {{/if}}
+        {{#if viewScript}}
+        <script type="module" src="{{ getFilePath viewScript }}"></script>
+        {{/if}}
+    </body>
+</html>
+
